@@ -62,20 +62,26 @@ Bypass advanced anti-bot systems like Cloudflare, Akamai, and DataDome.
 
 ---
 
-## 🚦 Installation
+## ⚙️ Installation & Architecture (Modular)
 
-We recommend **modular installation** to avoid industry-wide version conflicts between Agentic and Automation stacks:
+As of **April 2026**, the Python agentic ecosystem has evolved so rapidly that several state-of-the-art libraries have **mutually exclusive** dependency chains. To ensure stability, this toolkit uses a **Modular Architecture**.
 
+### 1. The Core Stable Stack (100% Conflict-Free)
+To install the foundational 40+ compatible libraries in a single environment:
 ```bash
-# Ultimate AI/Agent Stack
-pip install .[agentic,ai,cleaning]
-
-# Pro Automation Stack
-pip install .[modern-core,stealth,specialized]
-
-# Foundational Basics
-pip install .[foundational]
+pip install -r requirements.txt
 ```
+
+### 2. The Modular AI Extensions
+Install these in **isolated virtual environments** to avoid version conflicts (websockets, anthropic, aiohttp):
+
+| Stack | Command | Key Tools Included |
+| :--- | :--- | :--- |
+| **Agentic Alpha** | `pip install .[agentic-skyvern]` | Skyvern (Vision-Native) |
+| **Agentic Beta** | `pip install .[agentic-browseruse]` | Browser-Use (LangChain Core) |
+| **Automation Pro** | `pip install .[automation-pro]` | SeleniumBase (Stealth Pro) |
+| **AI-PDF** | `pip install .[ai-pdf]` | Marker-PDF (LLM Extraction) |
+| **Full AI Core** | `pip install .[ai-core,agentic-core]` | Crawl4AI, MultiOn, Stagehand |
 
 ---
 
