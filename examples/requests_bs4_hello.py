@@ -5,7 +5,7 @@ def scrape_example():
     """
     A simple example of fetching a page with requests and parsing it with BeautifulSoup.
     """
-    url = "https://example.com"
+    url = "https://quotes.toscrape.com"
     print(f"--- Scraping {url} ---")
     
     try:

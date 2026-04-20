@@ -7,7 +7,7 @@ async def main():
     Note: Requires 'crawl4ai' package.
     """
     async with AsyncWebCrawler(verbose=True) as crawler:
-        result = await crawler.arun(url="https://example.com")
+        result = await crawler.arun(url="https://quotes.toscrape.com")
         
         print("--- Crawl4AI Clean Markdown ---")
         # Crawl4AI provides the content in various formats (markdown, clean_html, etc)

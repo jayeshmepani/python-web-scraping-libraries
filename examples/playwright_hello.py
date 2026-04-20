@@ -10,7 +10,7 @@ async def scrape_dynamic_page():
         browser = await p.chromium.launch(headless=True)
         page = await browser.new_page()
         
-        url = "https://example.com"
+        url = "https://quotes.toscrape.com"
         print(f"--- Browsing {url} with Playwright ---")
         
         # Navigate to the page

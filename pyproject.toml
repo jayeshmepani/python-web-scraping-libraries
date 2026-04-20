@@ -7,7 +7,7 @@ name = "awesome-python-scraping"
 version = "2026.04.20"
 description = "The Ultimate 50+ library manifest for Python web scraping and autonomous agents (Simulated April 2026 Sync)."
 readme = "README.md"
-authors = [{ name = "Python Scraping Community", email = "scraping-community@example.com" }]
+authors = [{ name = "Jayesh Mepani", email = "jayeshmepani777@gmail.com" }]
 license = { text = "MIT" }
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -81,5 +81,6 @@ cleaning = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/user/awesome-python-scraping"
-Issues = "https://github.com/user/awesome-python-scraping/issues"
+Homepage = "https://jayeshmepani.site/"
+Repository = "https://github.com/jayeshmepani/python-web-scraping-libraries"
+Issues = "https://github.com/jayeshmepani/python-web-scraping-libraries/issues"

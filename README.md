@@ -93,3 +93,9 @@ Install these in **isolated virtual environments** to avoid version conflicts (w
 ---
 ## 🤝 Contributing
 The ultimate list is never finished. Check [CONTRIBUTING.md](CONTRIBUTING.md) and join the ecosystem!
+
+---
+**Maintained by [Jayesh Mepani](https://jayeshmepani.site/)**  
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-flat&logo=github&logoColor=white)](https://github.com/jayeshmepani)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/jayeshmepani)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-flat&logo=gmail&logoColor=white)](mailto:jayeshmepani777@gmail.com)
