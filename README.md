@@ -1,4 +1,4 @@
-# 🕷️ Awesome Python Scraping Toolkit (Ultimate 2026 Edition)
+# 🕷️ Python Web Scraping Libraries (Ultimate 2026 Edition)
 
 The undisputed **most complete** and up-to-date curated list of Python libraries for web scraping, data extraction, and autonomous AI agents. Fully synchronized for **April 20, 2026**.
 
