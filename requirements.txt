@@ -1,5 +1,5 @@
 # ==============================================================================
-# 🕷️ Core Stable Web Scraping Stack (100% Conflict-Free - April 2026 Sync)
+# 🕷️ Core Stable Web Scraping Stack (100% Conflict-Free - June 2026 Sync)
 # ==============================================================================
 
 # --- Foundational Dependencies ---
