@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "python-web-scraping-libraries"
-version = "2026.04.20"
-description = "The Ultimate 50+ library manifest for Python web scraping and autonomous agents (Simulated April 2026 Sync)."
+version = "2026.06.26"
+description = "The Ultimate 50+ library manifest for Python web scraping and autonomous agents (Simulated June 2026 Sync)."
 readme = "README.md"
 authors = [{ name = "Jayesh Mepani", email = "jayeshmepani777@gmail.com" }]
 license = { text = "MIT" }
