@@ -31,6 +31,7 @@ Install these in **isolated virtual environments** to avoid version conflicts (d
 | **AI-PDF** | `pip install .[ai-pdf]` | Marker-PDF (LLM Extraction) |
 | **Full AI Core** | `pip install .[ai-core,agentic-core]` | Crawl4AI, MultiOn, Stagehand |
 | **Legacy Tools** | `pip install .[legacy]` | grab-site, cloudscraper |
+| **Testing Stack** | `pip install .[testing]` | responses, vcrpy, httpretty |
 
 ---
 
@@ -68,6 +69,9 @@ The building blocks of traditional web scraping. They are lightweight, fast, and
 *   **urllib3**
     *   **Use Case:** A powerful, low-level HTTP client featuring thread-safe connection pooling, file post uploads, and robust request retrying.
     *   **Install:** `pip install urllib3`
+*   **mechanicalsoup**
+    *   **Use Case:** Automates interaction with websites by linking Requests and BeautifulSoup. Automatically stores and sends cookies, follows redirects, and submits forms (clicks buttons, fills inputs).
+    *   **Install:** `pip install mechanicalsoup` (or `pip install .[foundational]`)
 
 ### 2. Large-Scale & Industrial Frameworks
 Engineered for scale, distributed crawling, and robust browser-based actions.
@@ -166,6 +170,12 @@ Targeted crawlers and specialized scrapers for multimedia, news, and complex met
 *   **extruct**
     *   **Use Case:** Formatted metadata extractor. Parses semantic data like JSON-LD, Microdata, RDFa, Dublin Core, and OpenGraph markup from raw HTML.
     *   **Install:** `pip install extruct` (or `pip install .[foundational]`)
+*   **scrapy-playwright**
+    *   **Use Case:** A Scrapy integration that allows spiders to render pages using Playwright, combining Scrapy's high crawling performance with full Javascript rendering capability.
+    *   **Install:** `pip install scrapy-playwright` (or `pip install .[specialized]`)
+*   **scrapy-user-agents**
+    *   **Use Case:** Middleware for Scrapy that rotates browser User-Agent headers on every request to prevent scrapers from being flagged or rate-limited.
+    *   **Install:** `pip install scrapy-user-agents` (or `pip install .[specialized]`)
 
 ### 7. Data Cleaning, Parsing & Pipeline Utilities
 Helper tools to clean and format scraped text, handle rate limits, and construct schema-conforming items.
@@ -188,6 +198,24 @@ Helper tools to clean and format scraped text, handle rate limits, and construct
 *   **python-dotenv**
     *   **Use Case:** Loads environment configurations from `.env` files. Essential for managing private keys, user names, and API keys securely.
     *   **Install:** `pip install python-dotenv`
+*   **tldextract**
+    *   **Use Case:** Accurately extracts subdomains, registered domains, and top-level domains (TLDs) from URLs using the Public Suffix List.
+    *   **Install:** `pip install tldextract` (or `pip install .[cleaning]`)
+*   **cssselect**
+    *   **Use Case:** Parses CSS3 selectors and translates them into XPath 1.0 expressions to be queried against XML/HTML trees.
+    *   **Install:** `pip install cssselect` (or `pip install .[cleaning]`)
+*   **w3lib**
+    *   **Use Case:** A lightweight helper library of common web scraping utilities to remove HTML comments, clean URLs, parse HTTP headers, and strip markup tags.
+    *   **Install:** `pip install w3lib` (or `pip install .[cleaning]`)
+*   **parse**
+    *   **Use Case:** Reverses python's format strings (e.g. `parse("Quote: {text}", "Quote: Hello")`) to easily extract structural values from text.
+    *   **Install:** `pip install parse` (or `pip install .[cleaning]`)
+*   **feedparser**
+    *   **Use Case:** Simple downloader and parser for RSS, Atom, and RDF feeds, normalizing different feed layouts into clean Python structures.
+    *   **Install:** `pip install feedparser` (or `pip install .[cleaning]`)
+*   **html5lib**
+    *   **Use Case:** Standards-compliant pure-python parser designed to parse even the most broken/malformed HTML exactly as modern web browsers do.
+    *   **Install:** `pip install html5lib` (or `pip install .[cleaning]`)
 
 ### 8. Legacy & Auxiliary Tools
 Maintained for archive compatibility or reference under historical stacks.
@@ -198,6 +226,19 @@ Maintained for archive compatibility or reference under historical stacks.
 *   **cloudscraper**
     *   **Use Case:** A legacy client designed to bypass older Cloudflare anti-bot verification page challenges. *(Unmaintained; kept for historical reference)*
     *   **Install:** `pip install cloudscraper` (or `pip install .[legacy]`)
+
+### 9. Testing & Mocking Utilities
+Utilities to mock network requests and test web scrapers without triggering server blocks or consuming API limits.
+
+*   **responses**
+    *   **Use Case:** A utility library to mock out the python `requests` library, letting you mock custom web pages, headers, and status responses.
+    *   **Install:** `pip install responses` (or `pip install .[testing]`)
+*   **vcrpy**
+    *   **Use Case:** Automatically records and serializes mock HTTP request/response payloads to disk ("cassettes") and replays them during scraping tests.
+    *   **Install:** `pip install vcrpy` (or `pip install .[testing]`)
+*   **httpretty**
+    *   **Use Case:** Low-level, socket-level HTTP/HTTPS mocking tool for testing Python scrapers regardless of the HTTP library used.
+    *   **Install:** `pip install httpretty` (or `pip install .[testing]`)
 
 ---
 

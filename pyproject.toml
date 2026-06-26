@@ -88,12 +88,20 @@ specialized = [
     "trafilatura==2.0.0",
     "newspaper4k==0.9.5",
     "pywebcopy==7.1",
+    "scrapy-playwright",
+    "scrapy-user-agents",
 ]
 cleaning = [
     "dateparser==1.4.0",
     "price-parser==0.5.1",
     "tenacity==9.1.4",
     "fake-useragent==2.2.0",
+    "tldextract",
+    "cssselect",
+    "w3lib",
+    "parse",
+    "feedparser",
+    "html5lib",
 ]
 foundational = [
     "requests",
@@ -102,10 +110,16 @@ foundational = [
     "selenium",
     "urllib3",
     "extruct",
+    "mechanicalsoup",
 ]
 legacy = [
     "grab-site",
     "cloudscraper",
+]
+testing = [
+    "responses",
+    "vcrpy",
+    "httpretty",
 ]
 
 

@@ -16,7 +16,10 @@ extruct
 # --- Classic & Industrial Scaling ---
 scrapy==2.15.0
 scrapy-redis
+scrapy-playwright
+scrapy-user-agents
 selenium
+mechanicalsoup
 
 # --- Agentic Stable Core ---
 stagehand==3.19.5
@@ -53,3 +56,14 @@ dateparser==1.4.0
 price-parser==0.5.1
 tenacity==9.1.4
 fake-useragent==2.2.0
+tldextract
+cssselect
+w3lib
+parse
+feedparser
+html5lib
+
+# --- Testing & Mocking Utilities ---
+responses
+vcrpy
+httpretty

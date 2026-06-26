@@ -17,12 +17,15 @@ This document tracks the verified maintenance status and version health of the l
 | **lxml** | ✅ Verified | v6.1.0 | Fast C-based parser for HTML/XML. |
 | **selectolax** | ✅ Verified | v0.4.7 | Modest/Lexbor HTML parser in C. |
 | **urllib3** | ✅ Verified | Latest | Low-level HTTP socket management. |
+| **mechanicalsoup** | ✅ Verified | Latest | Form submission and click automation. |
 
 ### 2. Large-Scale & Industrial Frameworks
 | Library | Status (Python 3.13) | Latest Sync | Notes |
 | :--- | :--- | :--- | :--- |
 | **Scrapy** | ✅ Verified | v2.15.0 | Industrial async crawling framework. |
 | **scrapy-redis** | ✅ Verified | Latest | Distributed crawl worker coordinator. |
+| **scrapy-playwright** | ✅ Verified | Latest | Playwright integration for Scrapy. |
+| **scrapy-user-agents** | ✅ Verified | Latest | Rotate User-Agent headers in Scrapy. |
 | **selenium** | ✅ Verified | Latest | Classic browser simulation driver. |
 
 ### 3. Agentic & LLM-Driven Web Browsing
@@ -73,12 +76,25 @@ This document tracks the verified maintenance status and version health of the l
 | **fake-useragent** | ✅ Verified | v2.2.0 | Dynamic browser user agent rotator. |
 | **pydantic** | ✅ Verified | >=2.10 | Typings and structured data parsing. |
 | **python-dotenv** | ✅ Verified | Latest | Private local credentials manager. |
+| **tldextract** | ✅ Verified | Latest | Domain, subdomain, and TLD extractor. |
+| **cssselect** | ✅ Verified | Latest | Translation of CSS selectors to XPath. |
+| **w3lib** | ✅ Verified | Latest | URL and HTML cleaning helpers. |
+| **parse** | ✅ Verified | Latest | Extract formatted values from text. |
+| **feedparser** | ✅ Verified | Latest | RSS/Atom feed parser and downloader. |
+| **html5lib** | ✅ Verified | Latest | Browser-standard WHATWG HTML parser. |
 
 ### 8. Legacy & Auxiliary Tools
 | Library | Status (Python 3.13) | Latest Sync | Notes |
 | :--- | :--- | :--- | :--- |
 | **grab-site** | ⚠️ Legacy | v2.2.1 | Requires Python <3.13 for WARC crawls. |
 | **cloudscraper** | ⚠️ Legacy | v1.2.71 | Unmaintained. Kept for historical reference. |
+
+### 9. Testing & Mocking Utilities
+| Library | Status (Python 3.13) | Latest Sync | Notes |
+| :--- | :--- | :--- | :--- |
+| **responses** | ✅ Verified | Latest | Utility to mock the python requests library. |
+| **vcrpy** | ✅ Verified | Latest | Record and replay HTTP request traffic. |
+| **httpretty** | ✅ Verified | Latest | Low-level socket mock for HTTP clients. |
 
 ---
 
