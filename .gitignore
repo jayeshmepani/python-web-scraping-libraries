@@ -7,6 +7,7 @@ Thumbs.db
 # --- Research & Raw Notes ---
 docs/research/
 *.txt
+!requirements.txt
 
 # --- Python Build/Caches ---
 __pycache__/
