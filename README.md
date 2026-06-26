@@ -4,7 +4,7 @@ The undisputed **most complete** and up-to-date curated list of Python libraries
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
 [![Status](https://img.shields.io/badge/Status-Ultimate_Saturation_2026-success)](MAINTENANCE.md)
-[![April 2026 Sync](https://img.shields.io/badge/Sync-April_20_2026-blueviolet)](requirements.txt)
+[![June 2026 Sync](https://img.shields.io/badge/Sync-June_26_2026-blueviolet)](requirements.txt)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 ---
